@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="Project_RSDBAI.trangchu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Project_RSDBAI"
+             mc:Ignorable="d" 
+             d:DesignHeight="641" d:DesignWidth="1029">
+    <Grid UseLayoutRounding="True">
+        <Button Content="Hướng dẫn sử dụng" HorizontalAlignment="Left" Margin="151,48,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Chẩn đoán nhanh" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Lịch sử chẩn đoán" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Tư vấn sức khỏe" HorizontalAlignment="Left" Margin="667,48,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Lịch sử tư vấn" HorizontalAlignment="Left" Margin="667,206,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Tìm cơ sở y tế" HorizontalAlignment="Left" Margin="151,200,0,0" VerticalAlignment="Top" Width="210" Height="120" FontSize="20" Background="White" BorderThickness="0,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="25"/>
+                </Style>
+            </Button.Resources>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="3.5" Opacity="0.2" BlurRadius="15" Direction="270" Color="Aqua"/>
+            </Button.Effect>
+        </Button>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Margin="62,392,63,48" PreviewMouseWheel="ScrollViewer_PreviewMouseWheel">
+            <StackPanel Orientation="Horizontal" >
+                <WrapPanel Orientation="Horizontal" Width="Auto" VerticalAlignment="Top">
+                    <Border Background="White" BorderBrush="Gray" BorderThickness="0" Width="200" Height="150" Margin="0,0,20,0" CornerRadius="20">
+                        <TextBlock Text="Cẩm nang 1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Opacity="0.2" BlurRadius="5" Color="#FF0097FA"/>
+                        </Border.Effect>
+                    </Border>
+                    <Border Background="White" BorderBrush="Gray" BorderThickness="0" Width="200" Height="150" Margin="0,0,20,0" CornerRadius="20">
+                        <TextBlock Text="Cẩm nang 2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Opacity="0.2" BlurRadius="5" Color="#FF0097FA"/>
+                        </Border.Effect>
+                    </Border>
+                    <Border Background="White" BorderBrush="Gray" BorderThickness="0" Width="200" Height="150" Margin="0,0,20,0" CornerRadius="20">
+                        <TextBlock Text="Cẩm nang 3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Opacity="0.2" BlurRadius="5" Color="#FF0097FA"/>
+                        </Border.Effect>
+                    </Border>
+                    <Border Background="White" BorderBrush="Gray" BorderThickness="0" Width="200" Height="150" Margin="0,0,20,0" CornerRadius="20">
+                        <TextBlock Text="Cẩm nang 4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Opacity="0.2" BlurRadius="5" Color="#FF0097FA"/>
+                        </Border.Effect>
+                    </Border>
+                    <Border Background="White" BorderBrush="Gray" BorderThickness="0" Width="200" Height="150" Margin="0,0,20,0" CornerRadius="20">
+                        <TextBlock Text="Cẩm nang 5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5" Opacity="0.2" BlurRadius="5" Color="#FF0097FA"/>
+                        </Border.Effect>
+                    </Border>
+                </WrapPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <Label Content="Cẩm nang y tế: " HorizontalAlignment="Left" Margin="76,361,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+
+
+    </Grid>
+</UserControl>
