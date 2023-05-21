@@ -26,7 +26,7 @@ namespace Project_RSDBAI
             InitializeComponent();
         }
 
-        string ConnStr = @"Data Source=DESKTOP-L9FLOH2\SQLEXPRESS;Initial Catalog=btl_ktpm;Integrated Security=True;";
+        string ConnStr = @"Data Source=LAPTOP-16BETLGM\SQLEXPRESS;Initial Catalog=btl_ktpm;Integrated Security=True;";
         SqlConnection Conn = new SqlConnection();
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

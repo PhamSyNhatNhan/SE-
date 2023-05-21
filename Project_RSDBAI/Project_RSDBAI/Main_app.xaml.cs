@@ -28,7 +28,7 @@ namespace Project_RSDBAI
             id_ = id_tmp;
         }
 
-        string ConnStr_ = @"Data Source=DESKTOP-L9FLOH2\SQLEXPRESS;Initial Catalog=btl_ktpm;Integrated Security=True;";
+        string ConnStr_ = @"Data Source=LAPTOP-16BETLGM\SQLEXPRESS;Initial Catalog=btl_ktpm;Integrated Security=True;";
         static SqlConnection Conn = new SqlConnection();
 
         private Button[] buttons = new Button[5];
